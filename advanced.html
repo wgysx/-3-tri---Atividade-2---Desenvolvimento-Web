@@ -16,18 +16,17 @@
   <main class="advanced">
     <h2>Pesquisa Avançada</h2>
     <form action="https://www.google.com/search" method="get">
-      <label>Todas estas palavras:</label>
-      <input type="text" name="as_q">
+      <label for="all">Todas estas palavras:</label>
+      <input id="all" type="text" name="as_q">
 
-      <label>Esta frase exata:</label>
-      <input type="text" name="as_epq">
+      <label for="ex">Esta frase exata:</label>
+      <input id="ex" type="text" name="as_epq">
 
-      <label>Qualquer destas palavras:</label>
-      <input type="text" name="as_oq">
+      <label for="any">Qualquer destas palavras:</label>
+      <input id="any" type="text" name="as_oq">
 
-      <label>Nenhuma destas palavras:</label>
-      <input type="text" name="as_eq">
-
+      <label for="none">Nenhuma destas palavras:</label>
+      <input id="none" type="text" name="as_eq">
       <input type="submit" value="Pesquisa Avançada" class="btn-advanced">
     </form>
   </main>
